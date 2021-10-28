@@ -1,0 +1,116 @@
+@import url(https://fonts.google.com/specimen/Yellowtail);
+@import url(https://fonts.google.com/specimen/Cambo);
+@import url(https://fonts.google.com/specimen/Open+Sans);
+
+* { 
+	margin: 0; 
+	padding: 0;
+	font-family: "Yellowtail", "Cambo", "Open sans";
+}
+
+#wrapper { 
+	background: url("puzzle-alfa.png") no-repeat; 
+	background-size: 100%; 
+	background-color: #cdcdcd;
+	color: #FFF;
+}
+
+#content { 
+	background: url("header-bg.png") repeat-x;
+}
+
+#header {
+	height: 150px;
+}
+
+#header input {
+	border: 5px gray;
+}
+
+#header .h1 {
+	margin: 0 0 -12px 0;
+	padding: 1em 0 0 0;
+	font-size: 4em;
+}
+
+#header span {
+	font-size: 16px
+}
+
+#search .btn {
+	background-color: gray;
+	color: #FFF;
+	border-radius: 15px
+}
+
+#footer { 
+	background: url("footer-bg.png") repeat-x;
+	height: 191px
+}
+
+.desc { 
+	max-width: 325px;
+	margin-left: 45%;
+	margin-top: 18%;
+	margin-bottom: 10%;
+}
+
+.desc h1, .desc h4 { 
+	background-color: black;
+	text-align: center;
+}
+
+.desc h1 { opacity: 0.85; width: 325px}
+.desc h4 { opacity: 0.60; width: 200px; margin: -8px 0 0 25px }
+
+.csempe { 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -5em;
+}
+
+.cs_1, .cs_2, .cs_3, .cs_4 { 
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+.cs_1 *, .cs_2 *,.cs_3 *, .cs_4 * { 
+	color: black;
+}
+
+.cs_1, .cs_3 { 
+	border-radius: 25px 0px !important;
+	margin: 0 0.5em 0 
+}
+
+.cs_2, .cs_4 { 
+	border-radius: 0px 25px !important
+}
+
+.cs_1:hover, .cs_2:hover, .cs_3:hover, .cs_4:hover {
+	background-color: black;
+ } 
+
+ .cs_1:hover *, .cs_2:hover *, .cs_3:hover *, .cs_4:hover * { color: #fff; }
+
+
+.bub { 
+	background-color: #acacac;
+	width: 60%;
+	border-radius: 15px;
+	padding: 10px 0 10px 250px;
+	margin-top: 25px
+}
+/* Bootstrap */
+.w-20 {
+	width: 20%;
+}
+
+.w-30 {
+	width: 30%;
+}
+
+.w-40 {
+	width: 40%;
+}
